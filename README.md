@@ -13,7 +13,7 @@ The scripts should be run in the following order:
 1. **optional:** run the **Statistical ARA Model** > `Data_Histogram_Plot.py` script to visualize any set of features across all readability levels
 2. **Statistical ARA Model** > `Statistical_ARA_Model_Functions.py` for training of the statistical model and extraction of the train and test data IDs.
 3. Copy the `train_ids.txt` and the `test_ids.txt` files to the **Neural ARA Model** folder.
-5. **Neural ARA Model** > `data_extraction.py` for the extraction of the train and test sets based on the previously extracted IDs.
+5. **Neural ARA Model** > `Data_Extraction.py` for the extraction of the train and test sets based on the previously extracted IDs.
 6. **Neural ARA Model** > `Neural_ARA_Model_Functions.py` for training of the neural model.
 7. **optional** run the **Neural ARA Model** > `Evaluation.py` script for additional evaluation metrics. 
 8. Copy the `Neural_ARA_Model` with the saved model to the **N-shot Learning Text Simplification** folder.
@@ -48,7 +48,7 @@ The scripts should be run in the following order:
     - Finds the optimal number of features (k) and the best model for each algorithm by iterating over different values of k and evaluating the models' performance.
     - Loads the best models, predicts on the test set, and reports the F1-scores and confusion matrices for each model.
 
-3. **data_extraction.py**:
+3. **Data_Extraction.py**:
     - The `process_data` function reads relevant text files from the various readability levels, processes the content and stores the processed data in an Excel file.
     - The script takes four inputs: a list of filenames, a list of folder names, a list of labels, and the output file path.
     - Merges the text content from each file, chunks the text into smaller pieces if the word count exceeds a limit, and associates each processed text with a filename and label.
