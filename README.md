@@ -15,7 +15,7 @@ The scripts should be run in the following order:
 3. Copy the `train_ids.txt` and the `test_ids.txt` files to the **Neural ARA Model** folder.
 5. **Neural ARA Model** > `Data_Extraction.py` for the extraction of the train and test sets based on the previously extracted IDs.
 6. **Neural ARA Model** > `Neural_ARA_Model_Functions.py` for training of the neural model.
-7. **optional** run the **Neural ARA Model** > `Evaluation.py` script for additional evaluation metrics. 
+7. **optional:** run the **Neural ARA Model** > `Evaluation.py` script for additional evaluation metrics. 
 8. Copy the `Neural_ARA_Model` with the saved model to the **N-shot Learning Text Simplification** folder.
 9. Run either or both the `GEITje.py` and `LLAMA.py` scripts in the **N-shot Learning Text Simplification** folder.
 
