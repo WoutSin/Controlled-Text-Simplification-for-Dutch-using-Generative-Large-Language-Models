@@ -4,7 +4,7 @@ The code in this repository is used to generate and evaluate controlled text sim
 
 Subsequently, simplified outputs are evaluated with regards to the level of simplification by means of an Automatic Readability Assessment (ARA) model. I compared the performance of a more traditional feature-based approach and a neural approach using the Dutch RobBERT model for the development of a Dutch ARA model.
 
-In the original study, simplified outputs were also assessed through human evaluation by Flemish teachers. The Dutch surveys employed for this evaluation are also provided in the repository.
+In the original study, simplified outputs were also assessed through manual error checking and human evaluation by Flemish teachers. The complete error analysis, along with the Dutch surveys employed for this evaluation, are also provided in the repository.
 
 ## Execution Order of Scripts
 
