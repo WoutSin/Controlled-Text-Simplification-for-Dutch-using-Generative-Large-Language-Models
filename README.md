@@ -1,6 +1,6 @@
 # Dissertation: Controlled Text Simplification for Dutch using Generative Large Language Models 
 
-The code in this repository is used to generate and evaluate controlled text simplification for Dutch using Generative Large Language Models (LLMs). Generation is achieved through a N-shot prompting methodology for controlled text simplification, utilizing the open-source multilingual LLAMA 3 model, as well as the open-source monolingual GEITje 7B ultra model. 
+The code in this repository is used to generate and evaluate controlled text simplification for Dutch using Generative Large Language Models (LLMs). Generation is achieved through an N-shot prompting methodology for controlled text simplification, utilizing the open-source multilingual LLAMA 3 model, as well as the open-source monolingual GEITje 7B ultra model. 
 
 Subsequently, simplified outputs are evaluated with regards to the level of simplification by means of an Automatic Readability Assessment (ARA) model. I compared the performance of a more traditional feature-based approach and a neural approach using the Dutch RobBERT model for the development of a Dutch ARA model.
 
