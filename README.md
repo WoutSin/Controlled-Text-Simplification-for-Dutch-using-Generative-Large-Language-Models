@@ -1,4 +1,4 @@
-# Dissertation: Controlled Text Simplification for Dutch using Generative Large Language Models 
+# Controlled Text Simplification for Dutch using Generative Large Language Models 
 
 The code in this repository is used to generate and evaluate controlled text simplification for Dutch using Generative Large Language Models (LLMs). Generation is achieved through an N-shot prompting methodology for controlled text simplification, utilizing the open-source multilingual LLAMA 3 model, as well as the open-source monolingual GEITje 7B ultra model. 
 
