@@ -32,7 +32,7 @@ The scripts should be run in the following order:
 
     As input to the Generative LLMs, a **corpus of 50 Dutch texts**, originating from either textbooks or a teacher co-creation platform was compiled. 
 
-Note: Due to licensing restrictions, we are unable to include the original datasets. However, we are actively exploring options to make it available in the future. In the meantime, these texts can be shared for research purposes upon request. Please contact Orphée De Clercq for access (orphee.declercq@ugent.be).
+Note: Due to licensing restrictions, we are unable to include the original datasets. However, we are actively exploring options to make the data available in the future. In the meantime, these texts can be shared for research purposes upon request. Please contact Orphée De Clercq for access (orphee.declercq@ugent.be).
 
 ## In-depth overview on the Scripts
 
