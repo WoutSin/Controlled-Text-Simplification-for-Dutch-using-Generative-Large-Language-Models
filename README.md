@@ -28,11 +28,11 @@ The scripts should be run in the following order:
     1. An **in-house corpus** that has been specifically compiled for **assessing readability of various Flemish educational levels**. (used for levels 0-3)
     2. The **Wablieft Corpus**, a collection of texts from the Belgian easy-to-read Wablieft newspaper (used for level 4)
   
-    Note: Due to licensing restrictions, we are unable to include the original dataset. However, we are actively exploring options to make it available in the future. In the meantime, these texts can be shared for research purposes upon request. Please contact Orphée De Clercq for access (orphee.declercq@ugent.be).
-
 2. **Dataset used to generate simplifications using the Generative LLMs**
 
     As input to the Generative LLMs, a **corpus of 50 Dutch texts**, originating from either textbooks or a teacher co-creation platform was compiled. 
+
+Note: Due to licensing restrictions, we are unable to include the original dataset. However, we are actively exploring options to make it available in the future. In the meantime, these texts can be shared for research purposes upon request. Please contact Orphée De Clercq for access (orphee.declercq@ugent.be).
 
 ## In-depth overview on the Scripts
 
